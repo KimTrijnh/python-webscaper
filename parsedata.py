@@ -14,5 +14,4 @@ def search(keyword):
             count = count + 1
     print('tweet contain', keyword, ':', count)
 
-
 search('obama') 

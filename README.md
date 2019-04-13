@@ -1,6 +1,9 @@
 ## PROJECT FOR BACKEND PRACTICE: WEB SCRAPER
 
 
+- tweets table displayed: (for 10 first tweets)
+![alt text](https://ibb.co/0hWH0S0 "tweets table")
+
 ## DESCRIPTION:
 ![alt text](https://cdn-images-1.medium.com/max/1000/1*hYfIYxGbmEqa0wKqz5HXRA.png "webscaper")
 
@@ -10,7 +13,7 @@
 - [x] Store each tweet in a Jsonformat dict and all tweet objects are stored in an array(list in python)
 - [x] the data is saved as JSON file
 - [x] count the number of tweet that have 'obama' inside its' content
-- [ ] Create tweets table in sql that have collum id, author, content, like, share, date
+- [x] Create tweets table in sql that have collum id, author, content, like, share, date
 
 ## WHAT I LEARN
 - [x] create a virtual environment `python -m venv env`
