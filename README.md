@@ -7,7 +7,7 @@
 ## USER STORY
 - [x] All tweets in raw html can printed in the terminal using python
 - [x] Store each tweet in a Jsonformat dict and all tweet objects are stored in an array(list in python)
-- [ ] the data is saved as JSON file
+- [x] the data is saved as JSON file
 - [ ] count the number of tweet that have 'obama' inside its' content
 - [ ] Create tweets table in sql that have collum id, author, content, like, share, date
 
