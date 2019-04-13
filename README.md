@@ -5,10 +5,11 @@
 ![alt text](https://cdn-images-1.medium.com/max/1000/1*hYfIYxGbmEqa0wKqz5HXRA.png "webscaper")
 
 ## USER STORY
+- [x] loading html from this fake tweeter http://ethans_fake_twitter_site.surge.sh/
 - [x] All tweets in raw html can printed in the terminal using python
 - [x] Store each tweet in a Jsonformat dict and all tweet objects are stored in an array(list in python)
-- [ ] the data is saved as JSON file
-- [ ] count the number of tweet that have 'obama' inside its' content
+- [x] the data is saved as JSON file
+- [x] count the number of tweet that have 'obama' inside its' content
 - [ ] Create tweets table in sql that have collum id, author, content, like, share, date
 
 ## WHAT I LEARN
