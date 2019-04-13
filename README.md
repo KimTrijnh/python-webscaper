@@ -12,11 +12,16 @@
 - [ ] Create tweets table in sql that have collum id, author, content, like, share, date
 
 ## WHAT I LEARN
--[x] create a virtual environment `python -m venv env`
-        - Little diference from the ref tutorial:
-        + to activate virtual env
-        `cd evn`
-        `./Scripts/activate`
+- [x] create a virtual environment `python -m venv env`
+        ** Little diference from the ref tutorial: **
+        ```=python
+        #to activate virtual env
+        cd evn
+        ./Scripts/activate
+        ```
+- [x] File handling in python
+- [x] Working with Json data in python
+
 
 ### Libaries used in this project:
 1. Beautiful Soup `pip install bs4`
