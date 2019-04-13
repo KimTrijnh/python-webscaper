@@ -7,15 +7,6 @@ url = 'http://ethans_fake_twitter_site.surge.sh/'
 response = requests.get(url, timeout=5)
 content = BeautifulSoup(response.content, 'html.parser')
 
-# for tweet in content.findAll('p', attrs={"class": "content"}):
-#     print(tweet.text)
-
-tweet = {'author': 'jim',
-'content': 'text',
-'date': '2019-2-3',
-'like': 2,
-'share': 4}
-
 
 tweetArr= []
 for tweet in content.findAll('div', attrs={'class': 'tweetcontainer'}):
