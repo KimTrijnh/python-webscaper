@@ -14,6 +14,7 @@
 - [x] the data is saved as JSON file
 - [x] count the number of tweet that have 'obama' inside its' content
 - [x] Create tweets table in sql that have collum id, author, content, like, share, date
+- [x] add 10 tweets to the table
 
 ## WHAT I LEARN
 - [x] create a virtual environment `python -m venv env`

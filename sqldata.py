@@ -50,10 +50,6 @@ def print_tweets():
         print(i)
     con.close()
 
-
-# t = open('tweets.json', 'r')
-# parsedTweets = json.loads(t.read())
-
 def add_tweets(num):
     tweetsJs = open('tweets.json', 'r')
     tweets = json.loads(tweetsJs.read())[0:num]
@@ -64,7 +60,7 @@ def add_tweets(num):
     print(num, 'tweets added to db')
 
 #add 10 first tweets to table tweets
-add_tweets(10)
+#add_tweets(10)
 
 
 def clear_rows():
