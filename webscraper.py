@@ -15,6 +15,8 @@ tweet = {'author': 'jim',
 'like': 2,
 'share': 4}
 
+
+tweetArr= []
 for tweet in content.findAll('div', attrs={'class': 'tweetcontainer'}):
     tweetObj = {
         'author': tweet.find('h2', attrs={'class': 'author'}).text.encode('utf-8'),
@@ -23,5 +25,6 @@ for tweet in content.findAll('div', attrs={'class': 'tweetcontainer'}):
         'likes': tweet.find('p', attrs={'class': 'likes'}).text.encode('utf-8'),
         'shares': tweet.find('p', attrs={'class': 'shares'}).text.encode('utf-8')
             }
-    print(tweetObj)
+    tweetArr.append(tweetObj)
+print(tweetArr)    
 
