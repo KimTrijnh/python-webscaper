@@ -2,6 +2,7 @@
 
 Web Scraper is a process of loading html from a site and convert sepcified information into data. This project is done using a fake twitter site based on [this tutorial](https://hackernoon.com/building-a-web-scraper-from-start-to-finish-bb6b95388184). I write the user story my own and also added more in order to practice implementing python and sql.
 
+
 final sql table would look like this:
 - tweets table displayed: (for 10 first tweets)
 !["tweets table" ](https://i.ibb.co/4K8drNn/image.png)
@@ -37,4 +38,6 @@ Beautiful Soup contains some easy ways for us to identify the tags
 2. Request `pip install requests`
 The Request library allows us to make requests to urls, and access the data on those HTML pages. 
 ### ref: https://hackernoon.com/building-a-web-scraper-from-start-to-finish-bb6b95388184
+
+
 
